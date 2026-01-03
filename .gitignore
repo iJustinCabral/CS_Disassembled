@@ -53,3 +53,17 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Build artifacts
+*.dSYM/
+bin/
+build/
+
+# Emacs litter
+*~
+\#*\#
+.#*
+
+# OS litter
+.DS_Store
+Thumbs.db
